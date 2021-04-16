@@ -1,0 +1,159 @@
+/* 
+code by - Dhawal (@dhawalRath)
+Date - 16th April 2021
+*/
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+:root{
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --very-light-grey: hsl(0, 0%, 95%);
+}
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100vw;
+  background-color: var(--very-light-grey);
+}
+
+.box{
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: var(--very-light-grey);
+}
+
+.container{
+  max-width: 325px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.card{
+  padding: 2.8rem;
+}
+
+.card-1{
+  background-color: var(--bright-orange);
+  border-radius: 0.5rem 0.5rem 0 0;
+} 
+
+.card-2{
+  background-color: var(--dark-cyan);
+} 
+
+.card-3{
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.icon{
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: var(--very-light-grey);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 1.5rem;
+}
+
+/* buttons */
+.btn{
+  border: 2px solid var(--very-light-grey);
+  cursor: pointer;
+  background-color: var(--very-light-grey);
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;  
+  font-weight: bold;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn-1{
+  color: var(--bright-orange);
+}
+
+.btn-1:hover{
+  background-color: var(--bright-orange);
+  color: var(--very-light-grey);
+}
+
+.btn-2{
+  color: var(--dark-cyan);
+}
+
+.btn-2:hover{
+  background-color: var(--dark-cyan);
+  color: var(--very-light-grey);
+}
+
+.btn-3{
+  color: var(--very-dark-cyan);
+}
+
+.btn-3:hover{
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-grey);
+}
+
+
+
+/* desktop-version */
+
+@media(min-width: 1000px){
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .box{
+    max-width: 1440px;
+  }
+    
+  .container{
+    display: flex;
+    margin: auto;
+    max-width: 890px;
+  }
+
+  .card-1{
+  border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .card-3{
+  border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  p{
+    margin-bottom: 4rem;
+  }
+
+}
