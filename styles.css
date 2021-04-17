@@ -83,6 +83,7 @@ p{
 /* buttons */
 .btn{
   border: 2px solid var(--very-light-grey);
+  font-family: 'Lexend Deca', sans-serif;
   cursor: pointer;
   background-color: var(--very-light-grey);
   padding: 0.8rem 2rem;
