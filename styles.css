@@ -86,8 +86,7 @@ p{
   cursor: pointer;
   background-color: var(--very-light-grey);
   padding: 0.8rem 2rem;
-  border-radius: 2rem;  
-  font-weight: bold;
+  border-radius: 2rem;
 }
 
 .btn:focus{
