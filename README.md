@@ -12,6 +12,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
+## Overview
 
 ### Screenshot
 
@@ -22,6 +23,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Live Site URL: [view here](https://dhawalrath.github.io/3-column-preview-card-component-main/)
+- Solution URL: [check here](https://www.frontendmentor.io/solutions/mobile-first-approach-YRMqMH_as)
 
 ## My process
 
