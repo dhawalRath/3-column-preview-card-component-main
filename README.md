@@ -1,47 +1,20 @@
-# Frontend Mentor - 3-column preview card component solution
+# :star2: Frontend Mentor - 3-Column Preview Card Component :star2:
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+### :point_right: [Live Site](https://dhawalrath.github.io/3-column-preview-card-component-main/)
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-
-## Overview
-
-### Screenshot
+## :camera: Overview
 
 ![](./screenshots/desktop.png)
-![](./screenshots/mobile.png)
 
+## :muscle: Built With
 
-### Links
-
-- Live Site URL: [view here](https://dhawalrath.github.io/3-column-preview-card-component-main/)
-- Solution URL: [check here](https://www.frontendmentor.io/solutions/mobile-first-approach-YRMqMH_as)
-
-## My process
-
-By observing the design I try to visualize number of contianers required and accordingly I choose Grid, Flexbox or both.
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- HTML5 Semantics
+- CSS3 (with Grid and Flexbox)
 - Mobile-first workflow
 
-### What I learned
-
-Mobile first approach is better than I thought.
-
-## Author
+## :man: Author
 
 - Frontend Mentor - [@dhawalRath](https://www.frontendmentor.io/profile/dhawalRath)
 - Twitter - [@dhawalRath](https://www.twitter.com/dhawalRath)
